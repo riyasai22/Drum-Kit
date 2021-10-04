@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+:root{
+  --background:#17171F;
+}
+body {
+  text-align: center;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  background:var(--background);
+}
+.container{
+  border:1px solid transparent;
+  background: linear-gradient(180deg, #2C2B2F 0%, #17171F 100%); 
+}
+h1 {
+  font-size: 5rem;
+  color: #cac9ca;
+  font-family: 'Saira Stencil One', cursive;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  -webkit-box-reflect: below -70px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  transition:all 0.5s ease-in-out;
+}
+
+h1:hover{
+  color: #fff;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size:1rem;
+  color: #cac9ca;
+  background:var(--background);
+}
+
+.instrument_set {
+  margin: 5% auto 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.q:hover,.q.pressed{
+  color:rgb(165,0,242);
+  border:2px solid rgb(165, 0, 242);
+  box-shadow: 0px 0px 60px rgb(165, 0, 242,0.5);
+}
+
+
+.w:hover,.w.pressed{
+  color: rgb(107, 0, 242);
+  border:2px solid rgb(107, 0, 242);
+  box-shadow: 0px 0px 60px rgb(107, 0, 242,0.5);
+
+}
+
+.e:hover,.e.pressed{
+  color:rgb(77, 0, 242);
+  border:2px solid rgb(77, 0, 242);
+  box-shadow: 0px 0px 60px rgb(77, 0, 242,0.5);
+
+}
+
+.r:hover,.r.pressed{
+  color:rgb(19, 0, 242);
+  border:2px solid rgb(19, 0, 242);
+  box-shadow: 0px 0px 60px rgb(19, 0, 242,0.5);
+
+}
+
+.t:hover,.t.pressed{
+  color:rgb(0, 126, 242);
+  border:2px solid rgb(0, 126, 242);
+  box-shadow: 0px 0px 60px rgb(0, 126, 242,0.5);
+
+}
+
+.y:hover,.y.pressed{
+  color:rgb(0, 228, 242);
+  border:2px solid rgb(0, 228, 242);
+  box-shadow: 0px 0px 60px rgb(0, 228, 242,0.5);
+}
+
+.u:hover,.u.pressed{
+  color:rgb(0, 242, 210);
+  border:2px solid rgb(0, 242, 210);
+  box-shadow: 0px 0px 60px rgb(0, 242, 210,0.5);
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+.instrument{
+  display: flex;
+  flex-direction: column;
+}
+.img{
+  width:100px;
+  height:100px;
+  margin:10px auto;
+}
+.img img{
+  width:100%;
+}
+.drum {
+  outline: none;
+  font-family: 'Saira Stencil One', cursive;
+  border:0.5px solid rgb(155, 155, 155);
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: 900;
+  color: #b1a9a9;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background:var(--background);
+
+}
